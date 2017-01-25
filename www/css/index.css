@@ -1,0 +1,44 @@
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+	margin:0;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #FFF30C; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FFF30C, #8FBF1A); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFF30C, #8FBF1A); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFF30C, #8FBF1A); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFF30C, #8FBF1A); /* Standard syntax (must be last) */  
+}
+
+div#page-wrapper {
+    width: 90%; /* adjust to control the size of the red page wrapper */
+    margin: auto;
+    border:1px solid red;
+}
+
+/*VIDEO*/
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    overflow: hidden; 
+    width: 80%; /* adjust to control the size of the green video container */
+    margin: auto;
+    height: auto; 
+    border:1px solid green;
+} 
+.embed-container iframe { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+/*VIDEO*/
