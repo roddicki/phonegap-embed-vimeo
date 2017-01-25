@@ -8,7 +8,7 @@ How to use
 1. Create a new phonegap project using Phonegap cli or desktop app 
 2. Replace the www directory with this repository.
 3. Replace the config.xml file with this config file
-4. Replace the reference to the video file with your own
+4. Replace the reference to the video file in www/index.html with your own
 ```
 https://player.vimeo.com/video/163170188?color=fcfcfc&title=0&byline=0&portrait=0'
 ````
