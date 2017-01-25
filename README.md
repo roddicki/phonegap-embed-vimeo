@@ -1,7 +1,7 @@
 # phonegap-embed-vimeo
 This is a “hello world” phonegap application that is ready for testing and further development.
 It demonstates the basic use of an embedded vimeo video using the embed code directly from vimeo.
-Note it does contain a config.xml file, but the file should be moved inside the www directory for uploading to phonegap build
+Note it contains a config.xml file, but the file should be moved inside the www directory for uploading to phonegap build
 
 How to use
 ----------
